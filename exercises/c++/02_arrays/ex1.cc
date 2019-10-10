@@ -25,6 +25,7 @@ int main(){
   std::cin>>n;
 
   int * v = allocate_vector<int>(n);
+  //double * v = allocate_vector<double>(n);
 
   print_reverse(v, n);
 
